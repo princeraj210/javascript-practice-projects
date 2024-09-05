@@ -1,0 +1,27 @@
+body {
+    margin: 100px auto;
+}
+
+.container {
+    height: 300px;
+    width: 500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#heading {
+    font-size: 1.5rem;
+
+}
+
+.box {
+    border-bottom: 2px solid black;
+}
+
+#message-output {
+    text-align: center;
+    text-transform: uppercase;
+}
